@@ -24,7 +24,7 @@ sections:
       spacing:
         padding: ['20px', '0', '20px', '0']
       css_class: fullscreen
-      
+
   - block: hero
     content:
       title: |
@@ -53,7 +53,7 @@ sections:
       page_type: post
     design:
       view: card
-      columns: '1'
+      columns: '2'
   
 
 
