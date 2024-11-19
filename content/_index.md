@@ -20,7 +20,7 @@ sections:
           color: '#666'
       - title: Lunch & Learn ☕️
         content: 'Share your knowledge with the group and explore exciting new topics together!'
-        align: left
+        align: center
         background:
           image:
             filename: contact.jpg
@@ -30,7 +30,7 @@ sections:
           color: '#555'
       - title: World-Class Semiconductor Lab
         content: 'Just opened last month!'
-        align: right
+        align: center
         background:
           image:
             filename: welcome.jpg
