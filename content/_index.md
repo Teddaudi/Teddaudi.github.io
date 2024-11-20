@@ -51,5 +51,35 @@ sections:
       loop: false
       # Duration of transition between slides (in ms)
       interval: 2000
+      
+ - block: collection
+  id: posts
+  content:
+    title: Recent Posts
+    subtitle: ''
+    text: 'Check out my recent blog posts below!'
+    count: 9
+    filters:
+      folders:
+        - post
+      author: ""
+      category: ""
+      tag: ""
+      publication_type: ""
+      featured_only: false
+      exclude_featured: false
+      exclude_future: false
+      exclude_past: false
+    offset: 0
+    sort_by: false
+    sort_ascending: false
+  design:
+    view: grid
+    columns: 3
+    item_layout:
+      image_position: top
+      title_position: below
+      description_position: below
+
 ---
 
