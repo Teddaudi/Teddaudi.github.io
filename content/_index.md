@@ -74,7 +74,7 @@ sections:
       view: grid
       columns: 3
       item_layout:
-        image_position: top
+        image_position: above
         title_position: below
         description_position: below
 ---
