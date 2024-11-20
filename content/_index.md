@@ -20,7 +20,7 @@ sections:
           color: '#666'
       - title: Lunch & Learn ☕️
         content: 'Share your knowledge with the group and explore exciting new topics together!'
-        align: center
+        align: left
         background:
           image:
             filename: contact.jpg
@@ -30,7 +30,7 @@ sections:
           color: '#555'
       - title: World-Class Semiconductor Lab
         content: 'Just opened last month!'
-        align: center
+        align: right
         background:
           image:
             filename: welcome.jpg
@@ -51,7 +51,6 @@ sections:
       loop: false
       # Duration of transition between slides (in ms)
       interval: 2000
-
 
 - block: hero
     content:
