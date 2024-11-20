@@ -48,28 +48,50 @@ sections:
       is_fullscreen: true
       loop: false
       interval: 2000
-      
+
   - block: collection
     id: posts
     content:
       title: Recent Posts
       subtitle: ''
       text: 'Check out my recent blog posts below!'
-      count: 9
-      filters:
-        folders:
-          - post
-        author: ""
-        category: ""
-        tag: ""
-        publication_type: ""
-        featured_only: false
-        exclude_featured: false
-        exclude_future: false
-        exclude_past: false
-      offset: 0
-      sort_by: false
-      sort_ascending: false
+      items:
+        - title: "Exploring the Basics of Machine Learning"
+          description: "A beginner's guide to understanding machine learning concepts."
+          image: machine-learning.jpg
+          link: /posts/machine-learning-basics/
+        - title: "Top 10 JavaScript Tips"
+          description: "Boost your JavaScript skills with these essential tips."
+          image: javascript-tips.jpg
+          link: /posts/javascript-tips/
+        - title: "Building Scalable Web Applications"
+          description: "Learn the best practices for building scalable applications."
+          image: scalable-web-apps.jpg
+          link: /posts/scalable-web-apps/
+        - title: "Introduction to Cloud Computing"
+          description: "Discover the key concepts of cloud computing."
+          image: cloud-computing.jpg
+          link: /posts/cloud-computing/
+        - title: "Getting Started with React"
+          description: "A guide to building dynamic user interfaces with React."
+          image: react-intro.jpg
+          link: /posts/react-intro/
+        - title: "Understanding RESTful APIs"
+          description: "Learn about designing and consuming RESTful APIs."
+          image: restful-apis.jpg
+          link: /posts/restful-apis/
+        - title: "Mastering CSS Grid Layout"
+          description: "Design responsive layouts with CSS Grid."
+          image: css-grid.jpg
+          link: /posts/css-grid/
+        - title: "The Future of Artificial Intelligence"
+          description: "Explore AI's potential impact on the world."
+          image: future-of-ai.jpg
+          link: /posts/future-of-ai/
+        - title: "Version Control with Git"
+          description: "An essential guide to mastering Git."
+          image: git-guide.jpg
+          link: /posts/git-guide/
     design:
       view: grid
       columns: 3
