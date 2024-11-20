@@ -52,7 +52,6 @@ sections:
       # Duration of transition between slides (in ms)
       interval: 2000
 
-
 - block: collection
   id: posts
   content:
@@ -81,7 +80,6 @@ sections:
       image_position: top
       title_position: below
       description_position: below
-
   
   - block: collection
     content:
@@ -101,8 +99,6 @@ sections:
     design:
       view: showcase
       # columns: '1'
-  
-
 
   - block: collection
     content:
