@@ -58,39 +58,39 @@ sections:
       items:
         - title: "Exploring the Basics of Machine Learning"
           description: "A beginner's guide to understanding machine learning concepts."
-          image: machine-learning.jpg
+          image: welcome.jpgwelcome.jpg
           link: /posts/machine-learning-basics/
         - title: "Top 10 JavaScript Tips"
           description: "Boost your JavaScript skills with these essential tips."
-          image: javascript-tips.jpg
+          image: welcome.jpg
           link: /posts/javascript-tips/
         - title: "Building Scalable Web Applications"
           description: "Learn the best practices for building scalable applications."
-          image: scalable-web-apps.jpg
+          image: welcome.jpg
           link: /posts/scalable-web-apps/
         - title: "Introduction to Cloud Computing"
           description: "Discover the key concepts of cloud computing."
-          image: cloud-computing.jpg
+          image: welcome.jpg
           link: /posts/cloud-computing/
         - title: "Getting Started with React"
           description: "A guide to building dynamic user interfaces with React."
-          image: react-intro.jpg
+          image: welcome.jpg
           link: /posts/react-intro/
         - title: "Understanding RESTful APIs"
           description: "Learn about designing and consuming RESTful APIs."
-          image: restful-apis.jpg
+          image: welcome.jpg
           link: /posts/restful-apis/
         - title: "Mastering CSS Grid Layout"
           description: "Design responsive layouts with CSS Grid."
-          image: css-grid.jpg
+          image: welcome.jpg
           link: /posts/css-grid/
         - title: "The Future of Artificial Intelligence"
           description: "Explore AI's potential impact on the world."
-          image: future-of-ai.jpg
+          image: welcome.jpg
           link: /posts/future-of-ai/
         - title: "Version Control with Git"
           description: "An essential guide to mastering Git."
-          image: git-guide.jpg
+          image: welcome.jpg
           link: /posts/git-guide/
     design:
       view: grid
