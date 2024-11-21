@@ -56,11 +56,11 @@ sections:
         image: 
           filename: contact.jpg
           filters:
-            brightness: 0.5
+            brightness: 0.9
           parallax: true
           position: center
           size: cover
-          text_color_light: true
+          text_color_light: false
         color: 'rgba(0, 0, 0, 0.5)'
       spacing:
         padding: ['50px', '20px', '50px', '20px']
