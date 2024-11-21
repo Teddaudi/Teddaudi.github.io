@@ -7,11 +7,11 @@ type: landing
 sections:
   - block: contact
     content:
-      title: Contact
+      title: Get in Touch
       text: |-
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempus augue non tempor egestas. Proin nisl nunc, dignissim in accumsan dapibus, auctor ullamcorper neque. Quisque at elit felis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aenean eget elementum odio. Cras interdum eget risus sit amet aliquet. In volutpat, nisl ut fringilla dignissim, arcu nisl suscipit ante, at accumsan sapien nisl eu eros.
-      email: test@example.org
-      phone: 888 888 88 88
+        We’d love to hear from you! Whether you have a question, feedback, or just want to say hello, feel free to reach out using the contact details below or schedule an appointment with us.
+      email: hello@example.org
+      phone: '+1 888 888 8888'
       address:
         street: 450 Serra Mall
         city: Stanford
@@ -22,16 +22,11 @@ sections:
       coordinates:
         latitude: '37.4275'
         longitude: '-122.1697'
-      directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
+      directions: Enter Building 1 and take the stairs to Office 200 on Floor 2.
       office_hours:
-        - 'Monday 10:00 to 13:00'
-        - 'Wednesday 09:00 to 10:00'
+        - 'Monday: 10:00 AM - 1:00 PM'
+        - 'Wednesday: 9:00 AM - 10:00 AM'
       appointment_url: 'https://calendly.com'
-      #contact_links:
-      #  - icon: comments
-      #    icon_pack: fas
-      #    name: Discuss on Forum
-      #    link: 'https://discourse.gohugo.io'
     
       # Automatically link email and phone or display as text?
       autolink: true
@@ -39,31 +34,34 @@ sections:
       # Email form provider
       form:
         provider: netlify
-        formspree:
-          id:
         netlify:
-          # Enable CAPTCHA challenge to reduce spam?
-          captcha: false
+          captcha: true # Enable CAPTCHA challenge to reduce spam
     design:
       columns: '1'
+      background:
+        color: '#f9f9f9'
+        text_color_light: false
+      spacing:
+        padding: ['20px', '20px', '20px', '20px']
 
   - block: markdown
     content:
-      title:
+      title: Our Office
       subtitle: ''
-      text:
+      text: |-
+        Come visit us at our headquarters, located in the heart of Stanford. Our friendly staff is ready to assist you during office hours. For a smoother experience, we recommend booking an appointment in advance.
     design:
       columns: '1'
       background:
         image: 
           filename: contact.jpg
           filters:
-            brightness: 1
-          parallax: false
+            brightness: 0.9
+          parallax: true
           position: center
           size: cover
           text_color_light: true
       spacing:
-        padding: ['20px', '0', '20px', '0']
-      css_class: fullscreen
+        padding: ['50px', '20px', '50px', '20px']
 ---
+
