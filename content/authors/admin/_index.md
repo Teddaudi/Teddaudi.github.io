@@ -58,7 +58,7 @@ highlight_name: false
 user_groups:
   - Mentor
   - Mentee
-          - Alumni
+  - Alumni
 ---
 
 Passionate about crafting seamless user experiences. Currently responsible for backend development at Crestwood Marketing & Communications. Expertise in React, Next.js,Node.js, React Native, MongoDB, Shopify, Firebase, Gatsby, and AWS. B.Sc in Computer Science. Let's connect for innovative projects!
