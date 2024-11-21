@@ -4,7 +4,6 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 # Appearance
-
 appearance:
   theme_day: minimal
   theme_night:
@@ -12,7 +11,6 @@ appearance:
   font_size: L
 
 # SEO
-
 marketing:
   seo:
     site_type: Organization
@@ -30,7 +28,6 @@ marketing:
     baidu: ''
 
 # Site header
-
 header:
   navbar:
     enable: true
@@ -42,16 +39,13 @@ header:
     highlight_active_link: false
 
 # Site footer
-
 footer:
   copyright:
-    notice: '© {year} Research Skills Lab Africa'
+    notice: '© 2024 Research Skills Lab Africa'
     license:
       enable: false
 
-
 # Localization
-
 locale:
   date_format: 'Jan 2, 2006'
   time_format: '3:04 PM'
