@@ -35,8 +35,8 @@ header:
     show_logo: true
     show_language: false
     show_day_night: true
-    show_search: true
-    highlight_active_link: false
+    show_search: false
+    highlight_active_link: rue
 
 # Site footer
 footer:
