@@ -49,54 +49,61 @@ sections:
       loop: false
       interval: 2000
 
-  - block: collection
-    id: posts
+  # - block: collection
+  #   id: posts
+  #   content:
+  #     title: Recent Posts
+  #     subtitle: ''
+  #     text: 'Check out my recent blog posts below!'
+  #     items:
+  #       - title: "Exploring the Basics of Machine Learning"
+  #         description: "A beginner's guide to understanding machine learning concepts."
+  #         image: welcome.jpgwelcome.jpg
+  #         link: /posts/machine-learning-basics/
+  #       - title: "Top 10 JavaScript Tips"
+  #         description: "Boost your JavaScript skills with these essential tips."
+  #         image: welcome.jpg
+  #         link: /posts/javascript-tips/
+  #       - title: "Building Scalable Web Applications"
+  #         description: "Learn the best practices for building scalable applications."
+  #         image: welcome.jpg
+  #         link: /posts/scalable-web-apps/
+  #       - title: "Introduction to Cloud Computing"
+  #         description: "Discover the key concepts of cloud computing."
+  #         image: welcome.jpg
+  #         link: /posts/cloud-computing/
+  #       - title: "Getting Started with React"
+  #         description: "A guide to building dynamic user interfaces with React."
+  #         image: welcome.jpg
+  #         link: /posts/react-intro/
+  #       - title: "Understanding RESTful APIs"
+  #         description: "Learn about designing and consuming RESTful APIs."
+  #         image: welcome.jpg
+  #         link: /posts/restful-apis/
+  #       - title: "Mastering CSS Grid Layout"
+  #         description: "Design responsive layouts with CSS Grid."
+  #         image: welcome.jpg
+  #         link: /posts/css-grid/
+  #       - title: "The Future of Artificial Intelligence"
+  #         description: "Explore AI's potential impact on the world."
+  #         image: welcome.jpg
+  #         link: /posts/future-of-ai/
+  #       - title: "Version Control with Git"
+  #         description: "An essential guide to mastering Git."
+  #         image: welcome.jpg
+  #         link: /posts/git-guide/
+  #   design:
+  #     view: grid
+  #     columns: 3
+  #     item_layout:
+  #       image_position: above
+  #       title_position: below
+  #       description_position: below
+   - block: people
     content:
-      title: Recent Posts
-      subtitle: ''
-      text: 'Check out my recent blog posts below!'
-      items:
-        - title: "Exploring the Basics of Machine Learning"
-          description: "A beginner's guide to understanding machine learning concepts."
-          image: welcome.jpgwelcome.jpg
-          link: /posts/machine-learning-basics/
-        - title: "Top 10 JavaScript Tips"
-          description: "Boost your JavaScript skills with these essential tips."
-          image: welcome.jpg
-          link: /posts/javascript-tips/
-        - title: "Building Scalable Web Applications"
-          description: "Learn the best practices for building scalable applications."
-          image: welcome.jpg
-          link: /posts/scalable-web-apps/
-        - title: "Introduction to Cloud Computing"
-          description: "Discover the key concepts of cloud computing."
-          image: welcome.jpg
-          link: /posts/cloud-computing/
-        - title: "Getting Started with React"
-          description: "A guide to building dynamic user interfaces with React."
-          image: welcome.jpg
-          link: /posts/react-intro/
-        - title: "Understanding RESTful APIs"
-          description: "Learn about designing and consuming RESTful APIs."
-          image: welcome.jpg
-          link: /posts/restful-apis/
-        - title: "Mastering CSS Grid Layout"
-          description: "Design responsive layouts with CSS Grid."
-          image: welcome.jpg
-          link: /posts/css-grid/
-        - title: "The Future of Artificial Intelligence"
-          description: "Explore AI's potential impact on the world."
-          image: welcome.jpg
-          link: /posts/future-of-ai/
-        - title: "Version Control with Git"
-          description: "An essential guide to mastering Git."
-          image: welcome.jpg
-          link: /posts/git-guide/
-    design:
-      view: grid
-      columns: 3
-      item_layout:
-        image_position: above
-        title_position: below
-        description_position: below
+      title: About Us
+      # Choose which groups/teams of users to display.
+      #   Edit `user_groups` in each user's profile to add them to one or more of these groups.
+      user_groups:
+          - Mentor
 ---
