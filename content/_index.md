@@ -49,29 +49,36 @@ sections:
       loop: false
       interval: 2000
   - block: features
-    id: features
-    content:
-      title: Features
-      text: Collaborate, publish, and maintain technical knowledge with an all-in-one documentation site. Used by 100,000+ startups, enterprises, and researchers.
-      items:
-        - name: Optimized SEO
-          icon: magnifying-glass
-          description: Automatic sitemaps, RSS feeds, and rich metadata take the pain out of SEO and syndication.
-        - name: Fast
-          icon: bolt
-          description: Super fast page load with Tailwind CSS and super fast site building with Hugo.
-        - name: Easy
-          icon: sparkles
-          description: One-click deployment to GitHub Pages. Have your new website live within 5 minutes!
-        - name: No-Code
-          icon: code-bracket
-          description: Edit and design your site just using rich text (Markdown) and configurable YAML parameters.
-        - name: Highly Rated
-          icon: star
-          description: Rated 5-stars by the community.
-        - name: Swappable Blocks
-          icon: rectangle-group
-          description: Build your pages with blocks - no coding required!
+  id: features
+  content:
+    title: Features
+    text: "Collaborate, publish, and maintain technical knowledge with an all-in-one documentation site. Trusted by 100,000+ startups, enterprises, and researchers."
+    items:
+      - name: Optimized SEO
+        icon: magnifying-glass
+        style: "h-6 w-6 text-blue-500 hover:text-blue-700"
+        description: "Effortless SEO with automatic sitemaps, RSS feeds, and rich metadata for better syndication."
+      - name: Blazing Fast
+        icon: bolt
+        style: "h-6 w-6 text-yellow-500 hover:text-yellow-700"
+        description: "Experience super-fast page loads with Tailwind CSS and lightning-quick site building using Hugo."
+      - name: Effortless Setup
+        icon: sparkles
+        style: "h-6 w-6 text-green-500 hover:text-green-700"
+        description: "Deploy to GitHub Pages with just one click. Get your website live in under 5 minutes!"
+      - name: No-Code Editing
+        icon: code-bracket
+        style: "h-6 w-6 text-gray-500 hover:text-gray-700"
+        description: "Design and update your site easily using Markdown and configurable YAML parameters."
+      - name: Community Approved
+        icon: star
+        style: "h-6 w-6 text-purple-500 hover:text-purple-700"
+        description: "Highly rated by users, with a 5-star community rating for performance and simplicity."
+      - name: Modular Design
+        icon: rectangle-group
+        style: "h-6 w-6 text-red-500 hover:text-red-700"
+        description: "Build stunning pages effortlessly with swappable blocks — no coding skills required."
+
   - block: people
     content:
       title: About Us
