@@ -58,26 +58,7 @@ sections:
           icon: magnifying-glass
           style: "h-6 w-6 text-blue-500 hover:text-blue-700"
           description: Automatic sitemaps, RSS feeds, and rich metadata take the pain out of SEO and syndication.
-        - name: Fast
-          icon: bolt
-          style: "h-6 w-6 text-yellow-500 hover:text-yellow-700"
-          description: Super fast page load with Tailwind CSS and super fast site building with Hugo.
-        - name: Easy
-          icon: sparkles
-          style: "h-6 w-6 text-green-500 hover:text-green-700"
-          description: One-click deployment to GitHub Pages. Have your new website live within 5 minutes!
-        - name: No-Code
-          icon: code-bracket
-          style: "h-6 w-6 text-gray-500 hover:text-gray-700"
-          description: Edit and design your site just using rich text (Markdown) and configurable YAML parameters.
-        - name: Highly Rated
-          icon: star
-          style: "h-6 w-6 text-purple-500 hover:text-purple-700"
-          description: Rated 5-stars by the community.
-        - name: Swappable Blocks
-          icon: rectangle-group
-          style: "h-6 w-6 text-red-500 hover:text-red-700"
-          description: Build your pages with blocks - no coding required!
+
   - block: people
     content:
       title: About Us
