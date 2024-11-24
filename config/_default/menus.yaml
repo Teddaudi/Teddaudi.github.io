@@ -5,7 +5,7 @@
 
 main:
   - name: Home
-    url: tour
+    url: /
     weight: 10
   - name: News
     url: post
@@ -14,7 +14,7 @@ main:
     url: team
     weight: 30
   - name: Projects
-    url: event
+    url: projects
     weight: 40
   - name: Publications
     url: publication
