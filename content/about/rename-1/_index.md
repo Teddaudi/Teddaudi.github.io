@@ -1,5 +1,6 @@
 ---
 # Display name
+name: John Doe
 
 # Is this the primary user of the site?
 superuser: true
@@ -8,20 +9,26 @@ superuser: true
 role: Software Developer
 
 # Organizations/Affiliations
-
+organizations:
+  - name: Tech Solutions Inc.
+    url: "https://techsolutions.example.com"
 
 # Short bio (displayed in user profile at end of posts)
+bio: Passionate about building innovative software solutions and playing rugby.
+
+# Interests (displayed in user profile)
 interests:
   - Rugby
   - Software Development
 
+# Contact information
+email: "johndoe@example.com"
 
-email: ''
-
+# Highlight the name in profile
 highlight_name: false
 
-# Organizational groups that you belong to (for People widget)
-#   Set this to `[]` or comment out if you are not using People widget.
+# Organizational groups for the People widget
+#   Comment out or set to `[]` if not using People widget.
 user_groups:
   - About
 ---
