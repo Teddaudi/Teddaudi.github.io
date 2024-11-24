@@ -1,6 +1,5 @@
 ---
 # Display name
-name: John Doe
 
 # Is this the primary user of the site?
 superuser: true
