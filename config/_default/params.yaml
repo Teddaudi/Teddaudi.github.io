@@ -38,12 +38,14 @@ header:
     show_search: false
     highlight_active_link: rue
 
+params:
+  show_author: false
+
+
 # Site footer
 footer:
   copyright:
     notice: '© 2024 Research Skills Lab Africa'
-    license:
-      enable: false
 
 # Localization
 locale:
