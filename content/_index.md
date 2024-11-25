@@ -78,5 +78,8 @@ sections:
           icon: cubes
           style: "h-3 w-3 cursor-pointer text-red-500 hover:text-red-700 pb-2 pt-2"
           description: Build your pages with blocks - no coding required!
-
+    design:
+      spacing:
+    # Customize the section spacing. Order is top, right, bottom, left.
+      padding: ['20px', '0', '20px', '0']
 ---
