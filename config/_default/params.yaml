@@ -46,6 +46,7 @@ params:
 footer:
   copyright:
     notice: '© 2024 Research Skills Lab Africa'
+  show_credit: false
 
 # Localization
 locale:
