@@ -4,7 +4,7 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 title: Research Skills Lab Africa # Website name
-baseURL: 'https://example.com/' # Website URL
+baseURL: "https://stalwart-llama-0aa707.netlify.app/" # Website URL
 
 ############################
 ## LANGUAGE
