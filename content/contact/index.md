@@ -30,11 +30,9 @@ sections:
       form:
         provider: netlify
         netlify:
-          # Enable CAPTCHA challenge to reduce spam
-          captcha: true 
-        # Netlify Form Configuration
+          captcha: true
         form_name: 'Contact Form'
-        action: ''
+        action: '/thank-you/' # Redirect after form submission
         method: 'POST'
         fields:
           - name: name
@@ -50,7 +48,7 @@ sections:
             type: textarea
             required: true
         submit_label: Send Message
-        success_message: Thank you for contacting us! We’ll get back to you shortly.
+        success_message: Thank you for contacting us! Redirecting...
         error_message: Oops! Something went wrong. Please try again.
 
     design:
@@ -60,25 +58,31 @@ sections:
         text_color_light: false
       spacing:
         padding: ['20px', '20px', '20px', '20px']
+---
 
+### Create a "Thank You" Page
+
+Add a new Markdown file for the thank-you page in your content directory:
+
+```yaml
+---
+title: Thank You
+date: 2022-10-24
+
+type: default
+
+sections:
   - block: markdown
     content:
-      title: Our Office
-      subtitle: ''
+      title: Thank You!
       text: |-
-        Come visit us at our headquarters, located in the heart of Stanford. Our friendly staff is ready to assist you during office hours. For a smoother experience, we recommend booking an appointment in advance.
+        We’ve received your message and will get back to you as soon as possible.  
+        In the meantime, feel free to browse our [latest news](/news/) or [contact us](/contact/) again if needed.
     design:
       columns: '1'
       background:
-        image: 
-          filename: contact.jpg
-          filters:
-            brightness: 0.9
-          parallax: true
-          position: center
-          size: cover
-          text_color_light: false
-        color: 'rgba(0, 0, 0, 0.5)'
+        color: '#f9f9f9'
+        text_color_light: false
       spacing:
         padding: ['50px', '20px', '50px', '20px']
 ---
