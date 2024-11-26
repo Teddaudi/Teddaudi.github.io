@@ -26,16 +26,33 @@ sections:
       office_hours:
         - 'Monday: 10:00 AM - 1:00 PM'
         - 'Wednesday: 9:00 AM - 10:00 AM'
-     # appointment_url: 'https://calendly.com'
-    
-      # Automatically link email and phone or display as text?
       autolink: true
-    
-      # Email form provider
       form:
         provider: netlify
         netlify:
-          captcha: true # Enable CAPTCHA challenge to reduce spam
+          # Enable CAPTCHA challenge to reduce spam
+          captcha: true 
+        # Netlify Form Configuration
+        form_name: 'Contact Form'
+        action: ''
+        method: 'POST'
+        fields:
+          - name: name
+            placeholder: Your Name
+            type: text
+            required: true
+          - name: email
+            placeholder: Your Email
+            type: email
+            required: true
+          - name: message
+            placeholder: Your Message
+            type: textarea
+            required: true
+        submit_label: Send Message
+        success_message: Thank you for contacting us! We’ll get back to you shortly.
+        error_message: Oops! Something went wrong. Please try again.
+
     design:
       columns: '1'
       background:
@@ -65,4 +82,3 @@ sections:
       spacing:
         padding: ['50px', '20px', '50px', '20px']
 ---
-
